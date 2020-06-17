@@ -1,0 +1,26 @@
+
+.index-links div {
+    margin: 16px 16px 0px;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #dfdbdb;
+}
+.index-links div:hover,
+.index-links div h3:hover {
+    background-color: rgb(173, 171, 169);
+    color: #ffffff;
+    transition: 0.4s;
+
+}
+
+
+.index-links div  h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
