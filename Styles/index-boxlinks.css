@@ -7,9 +7,9 @@
 }
 .index-links div:hover,
 .index-links div h3:hover {
-    background-color: rgb(173, 171, 169);
+    background-color: #111;
     color: #ffffff;
-    transition: 0.4s;
+    transition: 0.6s;
 
 }
 
@@ -23,4 +23,38 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+/*Responsividade para minha box-links do desktop*/
+@media only screen and (min-width: 1000px) {
+ 
+    .index-links div {
+        margin: 20px 10px 0px;
+        height: 230px;
+        background-color: #dfdbdb;
+        float: left;
+    }
+
+    .index-links {
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .index-boxlink-square {
+        width: calc(25% - 20px) !important;
+
+    }
+
+    .index-boxlink-retangulo {
+        width: calc(50% - 20px) !important;
+
+    }
+
+    .index-links div  h3 {
+        line-height: 230px;
+       
+    }
+}
+
+
+
 

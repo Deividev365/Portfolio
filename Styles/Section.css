@@ -1,7 +1,7 @@
 .index-banner {
     width: 100%;
     height: calc(100vh - 100px);
-    background-image: url('../img/banner.jpg');
+    background-image: url('../img/banner.gif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -35,4 +35,23 @@
     text-align: center;
     text-shadow: 2px 2px 20px #111;
 }
+/*Responsividade para minha section do desktop*/
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .index-banner {
+        height: 650px;
+        background-image: url('../img/banner.gif');
+       
+    
+    }
+    .index-banner h1 {
+        display: block;
+        width: 560px;
+        margin: 0 auto;
+    }
+}
+
 
