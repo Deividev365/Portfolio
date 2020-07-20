@@ -18,10 +18,15 @@ footer ul li {
 
 footer ul li a {
     font-family: 'Catamaran', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #f1f1f1;
-    font-weight: 900;
-    line-height: 40px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+footer ul li a:hover {
+    color: #1bdd65;
+    transition: 0.4s;
 }
 
 .footer-links-location {
@@ -29,7 +34,7 @@ footer ul li a {
 }
 
 .social-icons{
-    width: 50px;
+    width: 35px;
     float: right;
 }
 
@@ -40,6 +45,14 @@ footer ul li a {
 
 /*Responsividade para meu footer do desktop*/
 @media only screen and (min-width: 1000px) {
+    footer {
+        width: calc(100% - 80px);
+        padding: 20px 20px;
+        margin-top: 20px;
+        background-color: #0c0c0c;
+        overflow: hidden;
+    }
+    
     footer {
         margin-top: 10px;
     }
@@ -65,8 +78,8 @@ footer ul li a {
         color: #111;
     }
 
-    
-
-
+    .social-icons img:hover {
+      color: blue;
+    }
 }
 

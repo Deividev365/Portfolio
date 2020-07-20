@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: #f3f3f3;
+    background-color: #0c0c0c;
 }
 
 header {
-    background-color: rgb(255, 255, 248);
+    background-color:black;
     width: 100%;
     height: 100px;
 }
@@ -17,7 +17,7 @@ header .header-brand {
     font-family: 'Catamaran', sans-serif;
     font-size: 24px;
     font-weight: 900;
-    color: #111;
+    color: #ffffff;
 
     display: block;
     margin: 0 auto;
@@ -40,8 +40,17 @@ header nav ul li  {
 header nav ul li a  {
     font-family: 'Catamaran', sans-serif;
     font-size: 16px;
-    color: #111;
+    color: #ffffff;
     text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+header nav ul li a:hover  {
+    font-weight: bold;
+    transition: 0.4s;
+    color: #1bdd65;
+   
 }
 
 header .header-cases {
@@ -54,7 +63,7 @@ header .header-cases {
         text-align: left;
         line-height: 38px;
         padding: 0px 20px 0px 40px;
-        border-right: 3px solid #111;
+        border-right: 2px solid #1bdd65;
         float: left;
     }
 
@@ -67,17 +76,24 @@ header .header-cases {
         line-height: 60px;
     }
 
+    
     header .header-cases {
         display: block;
         font-family: 'Catamaran', sans-serif;
         font-size: 16px;
-        color: #111;
+        color: rgb(255, 255, 255);
         text-transform: uppercase;
         line-height: 40px;
-        border: 1px solid #111;
+        border: 3px solid rgb(253, 253, 253);
         float: right;
         margin-right: 40px;
         margin-top: 30px;
         padding: 0 20px;
+    }
+
+    header .header-cases:hover {
+        color: #1bdd65;
+        border: 3px solid #1bdd65;
+        transition: 0.4s;
     }
 }
